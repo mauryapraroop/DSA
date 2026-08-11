@@ -4,12 +4,11 @@ public:
 
         vector<pair<int, int>> arr;
 
-        // Store value + original index
         for (int i = 0; i < nums.size(); i++) {
             arr.push_back({nums[i], i});
         }
 
-        // Sort according to value
+  
         sort(arr.begin(), arr.end());
 
         int left = 0;
